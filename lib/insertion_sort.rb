@@ -24,17 +24,9 @@ class InsertionSort
 
     end
 
-    puts sorted
+    sorted
 
   end
 
+  
 end
-
-sorter = InsertionSort.new
-# <InsertionSort:0x007f81a19e94e8>
-sorter.sort(["d", "b", "a", "c"])
-# ["a", "b", "c", "d"]
-sorter.sort([*1..100].shuffle)
-
-# binding.pry
-# ""
