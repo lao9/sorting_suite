@@ -13,8 +13,8 @@ class MergeSort
   end
 
   def create_new_collection(new_col)
-    new_len = new_col.length/2
     output = []
+    new_len = new_col.length/2
     new_len.times {output << merge(new_col.shift, new_col.shift)}
     output << new_col.shift if new_col.length.odd?
     return output

@@ -9,6 +9,7 @@ class InsertionSort
     counter = 0
 
     until collection[0] == nil
+      
 
       if collection[0] < sorted[counter]
         sorted.insert(counter, collection.shift)
@@ -28,5 +29,5 @@ class InsertionSort
 
   end
 
-  
+
 end
